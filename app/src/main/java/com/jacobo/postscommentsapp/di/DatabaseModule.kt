@@ -2,9 +2,9 @@ package com.jacobo.postscommentsapp.d
 
 import android.content.Context
 import androidx.room.Room
-import com.jacobo.postscommentsapp.data.local.dao.CommentDao
-import com.jacobo.postscommentsapp.data.local.dao.PostDao
-import com.jacobo.postscommentsapp.data.local.database.AppDatabase
+import com.jacobo.postscommentsapp.data.source.local.dao.CommentDao
+import com.jacobo.postscommentsapp.data.source.local.dao.PostDao
+import com.jacobo.postscommentsapp.data.source.local.database.AppDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

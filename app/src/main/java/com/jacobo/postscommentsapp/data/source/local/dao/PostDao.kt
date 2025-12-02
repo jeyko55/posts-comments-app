@@ -1,10 +1,10 @@
-package com.jacobo.postscommentsapp.data.local.dao
+package com.jacobo.postscommentsapp.data.source.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.jacobo.postscommentsapp.data.local.entity.PostEntity
+import com.jacobo.postscommentsapp.data.source.local.entity.PostEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

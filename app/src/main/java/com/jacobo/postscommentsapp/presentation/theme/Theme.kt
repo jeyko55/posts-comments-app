@@ -1,4 +1,4 @@
-package com.jacobo.postscommentsapp.ui.theme
+package com.jacobo.postscommentsapp.presentation.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

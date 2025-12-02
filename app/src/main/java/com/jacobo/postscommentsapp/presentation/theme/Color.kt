@@ -1,4 +1,4 @@
-package com.jacobo.postscommentsapp.ui.theme
+package com.jacobo.postscommentsapp.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
