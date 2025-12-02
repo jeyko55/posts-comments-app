@@ -6,8 +6,6 @@ import kotlinx.coroutines.flow.Flow
 
 interface PostRepository {
 
-    // POSTS
-
     // Obtener todos los posts desde BD (reactivo)
     fun getPosts(): Flow<List<Post>>
 
@@ -19,13 +17,4 @@ interface PostRepository {
 
     // Sincronizar posts desde la API hacia Room
     suspend fun fetchAndStorePosts()
-
-
-    // COMMENTS
-
-    // Obtener comentarios de un post
-    fun getCommentsByPost(postId: Int): Flow<List<Comment>>
-
-    // Agregar un comentario a un post
-    suspend fun addComment(comment: Comment)
 }
