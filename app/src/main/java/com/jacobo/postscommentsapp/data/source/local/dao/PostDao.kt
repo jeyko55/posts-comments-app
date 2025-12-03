@@ -23,6 +23,7 @@ interface PostDao {
     suspend fun getPostById(postId: Int): PostEntity?
 
     // Buscar por título
-    @Query("SELECT * FROM posts WHERE title LIKE '%' || :query || '%'") // %:query% busca cualquier coincidencia
+    @Query("SELECT * FROM posts WHERE title LIKE '%' || :query || '%' ORDER BY id ASC")
     fun searchPostsByTitle(query: String): Flow<List<PostEntity>>
+
 }

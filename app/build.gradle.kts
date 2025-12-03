@@ -96,4 +96,10 @@ dependencies {
     testImplementation(libs.junit)
     testImplementation(libs.coroutines.test)
     androidTestImplementation(libs.room.testing)
+
+    hilt {
+        enableAggregatingTask = false
+    }
+
+
 }

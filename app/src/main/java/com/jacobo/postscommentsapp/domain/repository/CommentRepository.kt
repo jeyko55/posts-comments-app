@@ -7,7 +7,5 @@ interface CommentRepository {
 
     fun getCommentsByPostId(postId: Int): Flow<List<Comment>>
 
-    suspend fun fetchAndStoreComments(postId: Int)
-
     suspend fun insertComment(comment: Comment)
 }

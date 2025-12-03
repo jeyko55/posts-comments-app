@@ -9,7 +9,6 @@ fun CommentEntity.toDomain(): Comment {
         id = id,
         postId = postId,
         name = name,
-        email = email,
         body = body
     )
 }
@@ -20,7 +19,6 @@ fun Comment.toEntity(): CommentEntity {
         id = id,
         postId = postId,
         name = name,
-        email = email,
         body = body
     )
 }

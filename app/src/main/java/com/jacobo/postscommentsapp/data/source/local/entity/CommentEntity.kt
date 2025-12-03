@@ -26,7 +26,5 @@ data class CommentEntity(
 
     val name: String,
 
-    val email: String,
-
     val body: String
 )
