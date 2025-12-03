@@ -9,7 +9,7 @@ import org.junit.Test
 class PostMappersTest {
 
     @Test
-    fun `postDto toEntity maps correctly`() {
+    fun `postDto toEntity maps correctly`() { // Mapeo de PostDto a PostEntity
         // Given
         val dto = PostDto(
             userId = 1,

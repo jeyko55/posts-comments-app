@@ -8,7 +8,7 @@ import org.junit.Test
 class CommentMappersTest {
 
     @Test
-    fun `commentEntity toDomain maps correctly`() {
+    fun `commentEntity toDomain maps correctly`() { // Mapeo de CommentEntity a Comment
         // Given
         val entity = CommentEntity(
             id = 5,
