@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.jacobo.postscommentsapp.presentation.screens.posts.components.PostItem
-import com.jacobo.postscommentsapp.presentation.posts.viewmodel.PostViewModel
+import com.jacobo.postscommentsapp.presentation.viewmodels.PostViewModel
 
 @Composable
 fun PostScreen(

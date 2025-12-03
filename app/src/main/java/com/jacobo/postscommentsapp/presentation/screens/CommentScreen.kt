@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.jacobo.postscommentsapp.domain.model.Comment
 import com.jacobo.postscommentsapp.presentation.components.CommentItem
-import com.jacobo.postscommentsapp.presentation.comments.viewmodel.CommentViewModel
+import com.jacobo.postscommentsapp.presentation.viewmodels.CommentViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
