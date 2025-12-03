@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PostsCommentsAppTheme {
-                AppNavGraph()   // ✅ AQUÍ SE LLAMA LA NAVEGACIÓN
+                AppNavGraph()
             }
         }
     }
