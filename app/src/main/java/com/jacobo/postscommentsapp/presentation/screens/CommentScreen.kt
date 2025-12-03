@@ -26,7 +26,7 @@ fun CommentScreen(
     val comments by viewModel.comments.collectAsState()
 
     var author by remember { mutableStateOf("") }
-    var content by remember { mutableStateOf("") }
+    var comment by remember { mutableStateOf("") }
 
     // Cargar comentarios del post
     LaunchedEffect(postId) {
@@ -64,8 +64,8 @@ fun CommentScreen(
             Spacer(modifier = Modifier.height(8.dp))
 
             OutlinedTextField(
-                value = content,
-                onValueChange = { content = it },
+                value = comment,
+                onValueChange = { comment = it },
                 label = { Text("Comentario") },
                 modifier = Modifier.fillMaxWidth()
             )
@@ -74,17 +74,17 @@ fun CommentScreen(
 
             Button(
                 onClick = {
-                    if (author.isNotBlank() && content.isNotBlank()) {
+                    if (author.isNotBlank() && comment.isNotBlank()) {
                         viewModel.addComment(
                             Comment(
                                 id = 0, // auto generado por Room
                                 postId = postId,
                                 name = author,
-                                body = content,
+                                body = comment,
                             )
                         )
                         author = ""
-                        content = ""
+                        comment = ""
                     }
                 },
                 modifier = Modifier.align(Alignment.End)
