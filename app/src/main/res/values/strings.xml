@@ -1,3 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Posts Comments App</string>
+
+    <!-- PostScreen -->
+    <string name="search_by_title">Buscar por título</string>
+    <string name="loading">Cargando…</string>
+    <string name="no_posts">No hay posts disponibles</string>
+
+    <!-- CommentScreen -->
+    <string name="comments_title">Comentarios</string>
+    <string name="back">Volver</string>
+    <string name="author">Autor</string>
+    <string name="comment">Comentario</string>
+    <string name="add">Agregar</string>
+    <string name="no_comments">No hay comentarios aún</string>
+    <string name="be_first">¡Sé el primero en comentar!</string>
 </resources>
