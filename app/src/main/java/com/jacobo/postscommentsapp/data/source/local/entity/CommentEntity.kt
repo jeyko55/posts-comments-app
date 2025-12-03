@@ -12,7 +12,7 @@ import androidx.room.PrimaryKey
             entity = PostEntity::class,
             parentColumns = ["id"],
             childColumns = ["postId"],
-            onDelete = ForeignKey.CASCADE
+            onDelete = ForeignKey.NO_ACTION // No se eliminará el post cada que se haga GET a la API
         )
     ],
     indices = [Index(value = ["postId"])]
