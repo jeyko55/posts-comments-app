@@ -2,7 +2,7 @@ package com.jacobo.postscommentsapp.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Tema Azul Profesional
+// Tema Azul
 val Blue80 = Color(0xFF90CAF9)
 val BlueGrey80 = Color(0xFFB0BEC5)
 val LightBlue80 = Color(0xFF81D4FA)

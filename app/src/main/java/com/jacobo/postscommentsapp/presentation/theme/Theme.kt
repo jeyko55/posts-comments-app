@@ -9,6 +9,7 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+
 private val DarkColorScheme = darkColorScheme(
     primary = Blue80,
     secondary = BlueGrey80,
